@@ -1,28 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        table{margin-left: auto;
+        margin-right: auto;
+    text-align: center; width: 100%;height: 00px;
+}
+     table,th,td,tr{
+        border: 1px solid; border-radius: 2%;
+     }
+         
+    </style>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1 style="color: blue;">New Horizon college of Engineering</h1>
-    <img src="https://cache.careers360.mobi/media/colleges/reviews/2021/7/19/170372/6D177C36-1C5C-4DC2-9D91-3A72F4AB6B41.jpeg" width="500" alt="">
-    <h2>About</h2>
-    <ol>
-        <li>Join newhorizon college of engineering: <a href="https://newhorizoncollegeofengineering.in/why-join-nhce/" target="_blank">Join</a></li>
-        <li>Payment: <a href="https://newhorizoncollegeofengineering.in/online-payment/" target="_blank"> goto Payment</a></li>
-        <li>department:
-            <ul>
-                <li>computer science: <a href="https://newhorizoncollegeofengineering.in/" target="_blank">goto CS dept</a></li>
-                <li>civil engineering: <a href="https://department-of-civil-engineering.newhorizoncollegeofengineering.in/b-e-civil/" target="_blank">goto civil department</a></engineering:a></li>
-            </ul>
-        </li>
-        <li>gallery: <a href="https://newhorizoncollegeofengineering.in/gallery/" target="_blank">gallery</a></li>
-    </ol>
-    <h2>About college</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel exercitationem accusantium laudantium doloremque vero reiciendis laborum reprehenderit, harum minus itaque, deserunt illum eius doloribus qui! Dolorum, voluptate excepturi, ad laudantium libero eligendi veritatis doloremque tempore necessitatibus, consequatur blanditiis voluptas provident perspiciatis voluptatibus velit beatae ducimus reprehenderit vel officiis itaque alias non? Vero voluptates voluptatibus corrupti?</p>
+    <h1 style="text-align: center;"> CE DEPARTMENT TIMETABLE</h1>
+    <table>
+        <tr>
+            <th>Day/time</th>
+            <th>9:00-9:55</th>
+            <th>9:55-10:50</th>
+            <th>10:50-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-1:00</th>
+            <th>1:00-2:00</th>
+            <th>2:00-3:00</th>
+            <th>3:00-3:55</th>
+            <th>3:55-4:50</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>CO &OS</td>
+            <td>UID</td>
+            <td rowspan="5">BREAK</td>
+            <td>CN</td>
+            <td>CS</td>
+            <td rowspan="5">LUNCH</td>
+            <td colspan="3">placement</td>
+             
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>UID</td>
+            <td>CS</td>
+            <td colspan="2">PLACEMENT</td>
+            <td colspan="3">MINI PROJECT</td>
+            
+            
+             
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>CS</td>
+            <td>UID</td>
+            
+            <td>RM</td>
+            <td>CO&OS</td>
+            
+            
+             
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>CS</td>
+            <td>UID</td>
+            
+            <td>RM</td>
+            <td>CO&OS</td>
+            <td>IDT</td>
+            <td colspan="2">OS-LAB/WT-LAB</td>
+             
+        </tr>
+        <tr>
+            <td>friday</td>
+            <td>CN</td>
+            <td>CO&OS</td>
+            
+            <td colspan="2">CN-LAB/OS-LAB</td>
+            
+            <td>CN</td>
+            <td colspan="2">WT-LAB/CN-LAB</td>
+             
+        </tr>
 
-    
+    </table>
 </body>
 </html>
